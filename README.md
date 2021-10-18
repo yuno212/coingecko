@@ -1,7 +1,9 @@
 # Coingecko
-For given data , using multiple functions can output relevant informations. 
+
+#### For given data , using multiple functions can output relevant informations. 
 
 # Requirements : 
+
 ```python
 pip install pycoingecko
 pip install pyperclip
@@ -24,19 +26,19 @@ import datetime as dt
 # Input types / Functions : 
 
 ## -  coin is a string (example : 'bitcoin')
-## -  currency is a string (example : 'USD")
-## -  date is a string (Date format : DD-MM-YYYY) , (example : '03-05-2021')
+## -  currency is a string (example : 'USD')
+## -  date is a string (Date format : DD-MM-YYYY) , (example : "03-05-2021")
 
 
-#### - 1) 'getInfos(coin,currency)'
-#### - 2) 'getPrice(coin,currency)'
-#### - 3) 'priceOutput(coin,currency)'
-#### - 4) 'historical(coin,currency,date)'
-#### - 5) 'evolution(coin,currency)'
-#### - 6) 'cryptoToCurrency(coin,currency)'
-#### - 7) 'currencyToCurrency(coin,currency)'
-#### - 8) 'cryptoToCurrencyOutput(coin,currency)'
-#### - 9) 'currencyToCryptoOutput(Coin,Currency)'
+#### - 1) getInfos(coin,currency)
+#### - 2) getPrice(coin,currency)
+#### - 3) priceOutput(coin,currency)
+#### - 4) historical(coin,currency,date)
+#### - 5) evolution(coin,currency)
+#### - 6) cryptoToCurrency(coin,currency)
+#### - 7) currencyToCurrency(coin,currency)
+#### - 8) cryptoToCurrencyOutput(coin,currency)
+#### - 9) currencyToCryptoOutput(Coin,Currency)
 
 
 # Contact : 
