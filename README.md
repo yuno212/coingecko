@@ -16,7 +16,6 @@ import datetime as dt
 
 #### -  Useful
 #### -  Could be used for data science / analysis purposes.
-#### -  Could copy the hashed output.
 #### -  Beginner friendly (understandable code).
 #### -  Clean UI.
 #### -  Could be improved by deploying a web app.
