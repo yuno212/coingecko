@@ -23,9 +23,9 @@ import datetime as dt
 
 # Input types / Functions : 
 
-coin is a string (example : 'bitcoin')
-currency is a string (example : 'USD")
-date is a string (Date format : DD-MM-YYYY) , (example : '03-05-2021')
+## -  coin is a string (example : 'bitcoin')
+## -  currency is a string (example : 'USD")
+## -  date is a string (Date format : DD-MM-YYYY) , (example : '03-05-2021')
 
 
 #### - 1) 'getInfos(coin,currency)'
