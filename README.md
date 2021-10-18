@@ -30,15 +30,15 @@ import datetime as dt
 ## -  date is a string (Date format : DD-MM-YYYY) , (example : "03-05-2021")
 
 
-#### - 1) getInfos(coin,currency)
-#### - 2) getPrice(coin,currency)
-#### - 3) priceOutput(coin,currency)
-#### - 4) historical(coin,currency,date)
-#### - 5) evolution(coin,currency)
-#### - 6) cryptoToCurrency(coin,currency)
-#### - 7) currencyToCurrency(coin,currency)
-#### - 8) cryptoToCurrencyOutput(coin,currency)
-#### - 9) currencyToCryptoOutput(Coin,Currency)
+####  1) getInfos(coin,currency)
+####  2) getPrice(coin,currency)
+####  3) priceOutput(coin,currency)
+####  4) historical(coin,currency,date)
+####  5) evolution(coin,currency)
+####  6) cryptoToCurrency(coin,currency)
+####  7) currencyToCurrency(coin,currency)
+####  8) cryptoToCurrencyOutput(coin,currency)
+####  9) currencyToCryptoOutput(Coin,Currency)
 
 
 # Contact : 
