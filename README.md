@@ -38,7 +38,7 @@ import datetime as dt
 ####  6) cryptoToCurrency(coin,currency)
 ####  7) currencyToCurrency(coin,currency)
 ####  8) cryptoToCurrencyOutput(coin,currency)
-####  9) currencyToCryptoOutput(Coin,Currency)
+####  9) currencyToCryptoOutput(coin,currency)
 
 
 # Contact : 
