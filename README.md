@@ -44,5 +44,5 @@ import datetime as dt
 
 # Contact : 
 
-#### discord : **yuno#0283** .
-#### Request new features or ask for collaboration.
+### discord : **yuno#0283** .
+### Request new features or ask for collaboration.
