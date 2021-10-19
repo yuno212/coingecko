@@ -1,4 +1,4 @@
-# Coingecko extractro
+# Coingecko / 
 
 ### For given a **coin** and **currency** , using multiple functions can output relevant informations. 
 
