@@ -1,6 +1,6 @@
 # Coingecko
 
-#### For given data , using multiple functions can output relevant informations. 
+#### For given **data** , using multiple functions can output relevant informations. 
 
 # Requirements : 
 
@@ -14,19 +14,19 @@ import datetime as dt
 ```
 # Features/Perks :
 
-#### -  Useful
+#### -  Useful.
 #### -  Could be used for data science / analysis purposes.
 #### -  Beginner friendly (understandable code).
 #### -  Clean UI.
 #### -  Could be improved by deploying a web app.
-#### -  All variables type explained
-#### -  Video tutorial to see how to use the program (Link : ...)
+#### -  All variables type explained.
+#### -  Video tutorial to see how to use the program (Link : ...).
 
 # Infos /Input types / Functions : 
 
-## -  *coin* is a string (example : 'bitcoin')
-## -  *currency* is a string (example : 'USD')
-## -  ***date*** is a string (Date format : DD-MM-YYYY) , (example : "03-05-2021")
+## -  *coin* is a string (example : 'Bitcoin').
+## -  *currency* is a string (example : 'USD').
+## -  ***date*** is a string (Date format : DD-MM-YYYY) , (example : "03-05-2021").
 
 
 ####  **1) getInfos(coin,currency)**
@@ -40,9 +40,9 @@ import datetime as dt
 ####  **9) currencyToCryptoOutput(coin,currency)**
 ####  **10) getSymbol(coin)**
 
-####  **historical** and **evolution** functions **aren't working** for a **1 month old** date example (today we're the 19-10-2021) you can't get the price of the (**20-09-2021**)
+#### -**historical** and **evolution** functions **aren't working** for a **1 month old** date example (today we're the 19-10-2021) you can't get the price of the (**20-09-2021**)
 
 # Contact : 
 
-#### discord : yuno#0283 .
+#### discord : **yuno#0283** .
 #### Request new features or ask for collaboration.
