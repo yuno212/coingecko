@@ -1,6 +1,6 @@
 # Coingecko extractro
 
-### For given **data** , using multiple functions can output relevant informations. 
+### For given a **coin** and **currency** , using multiple functions can output relevant informations. 
 
 # Requirements : 
 
