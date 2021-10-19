@@ -28,7 +28,7 @@ import datetime as dt
 ## -  ***currency*** is a string (example : 'USD').
 ## -  ***date*** is a string (Date format : DD-MM-YYYY) , (example : "03-05-2021").
 
-
+##   Usable functions : 
 ###  **1) getInfos(coin,currency)**        
 ### **2) getPrice(coin,currency)**        
 ###  **3) priceOutput(coin,currency)**     
