@@ -40,9 +40,12 @@ import datetime as dt
 ###  **9) currencyToCryptoOutput(coin,currency)**
 ###  **10) getSymbol(coin)**  
 
-### -  **historical** and **evolution** functions **aren't working** for a **1 month old** date example (assuming we're the **19-10-2021**) you can't get the price of the (**20-09-2021**)
+### -**historical** and **evolution** functions **aren't working** for a **1 month old** date example (assuming we're the **19-10-2021**) you can't get the price of the (**20-09-2021**)
 
-### - to get a specific coin id pls
+### - To get a specific coin id please consider searching your coin on https://www.coingecko.com/en , and copy the circled content who's basically getting the id of the coin
+![InkedpageWhenRedirected_LI](https://user-images.githubusercontent.com/91159949/138499503-d716f371-fc0a-40df-95f2-5fdd7971ac73.jpg)
+
+
 # Contact : 
 
 ### discord : **yuno#0283** .
