@@ -5,20 +5,6 @@ import datetime as dt
 
 cg = CoinGeckoAPI()
 
-availableCrypto = {
-                "bitcoin":"BTC",
-                "ethereum":"ETH",
-                "litecoin":"LTC",
-                "bitcoin-cash":"BCH",
-                "binancecoin":"BNB",
-                "eos":"EOS",
-                "ripple":"XRP",
-                "stellar":"XLM",
-                "chainlink":"LINK",
-                "polkadot":"DOT",
-                "yearn-finance":"YFI"
-                }
-
 availableCurrencies = {
                 "usd":"USD",
                 "aed":"AED",
@@ -71,6 +57,7 @@ availableCurrencies = {
                 "bits":"BITS",
                 "sats":"SATS"
                 }
+
 funcs = {
         1 : 'getInfos(coin,currency)',
         2 : 'getPrice(coin,currency)',
@@ -119,6 +106,7 @@ def getSymbol(coin):
             return(Upper(out))
 
     return('Coin not found')
+
 
 def getInfos(coin,currency):
     coin,currency = lower(coin),lower(currency)
@@ -221,24 +209,48 @@ def evolution(coin,currency):
     #Date format : DD-MM-YYYY.
     coin,currency = lower(coin),lower(currency)
     date1 = input('first date to compare ? : ')
+    print()
     date2 = input('second date to compare ? : ')
     one = historical(coin,currency,date1)
     two = historical(coin,currency,date2)
+    one,two = round(one,2),round(two,2)
     out = tauxVariation(two,one)
     out = round(out, 2)
     ev = ''
     if out>0:
         ev +='increased by :'
+        evo = 'Increase'
     elif out<0:
         ev += 'decreased by :'
+        out = (-1) * out
+        evo = 'Decrease'
+    
+    print()
     print(coin+' '+ev , out , '%')
+    print()
+    listOrNot = input('Want a dictionary where output is summed up ?')
+    
+    if listOrNot == 'y':
+      sumUp = {'first price the : ' + date1: str(one) + availableCurrencies[currency],
+                'second price the : '+ date2: str(two) + 
+                availableCurrencies[currency] ,
+                'evolution' : str(out) +' %',
+                'type of evolution' : evo
+                }
 
-Coin = input('Coin ?: ')
+      print()
+      return sumUp
+
+    else:
+      return(None)
+
+Coin = input('Coin or symbol?: ')
 print()
 Currency = input('Currency ? : ')
 print()
 Coin = lower(Coin)
 Currency = lower(Currency)
+
 
 def main():
     global Coin
