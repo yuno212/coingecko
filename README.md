@@ -38,7 +38,8 @@ import datetime as dt
 ###  **7) currencyToCurrency(coin,currency)**
 ###  **8) cryptoToCurrencyOutput(coin,currency)**
 ###  **9) currencyToCryptoOutput(coin,currency)**
-###  **10) getSymbol(coin)**  
+###  **10) getSymbol(coin)** 
+###  **11) cryptoConverter()**
 
 ### -**historical** and **evolution** functions **aren't working** for a **1 month old** date example (assuming we're the **19-10-2021**) you can't get the price of the (**20-09-2021**)
 
