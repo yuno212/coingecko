@@ -6,10 +6,8 @@
 
 ```python
 pip install pycoingecko
-pip install pyperclip
 from pycoingecko import CoinGeckoAPI
 import webbrowser
-import pyperclip
 import datetime as dt
 ```
 # Features / Perks :
