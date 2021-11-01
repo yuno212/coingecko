@@ -28,7 +28,7 @@ import datetime as dt
 
 ##   Usable functions : 
 ###  **1) getInfos(coin,currency)**        
-### **2) getPrice(coin,currency)**        
+###  **2) getPrice(coin,currency)**        
 ###  **3) priceOutput(coin,currency)**     
 ###  **4) historical(coin,currency,date)** 
 ###  **5) evolution(coin,currency)**       
