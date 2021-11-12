@@ -1,63 +1,13 @@
 from pycoingecko import *
 import webbrowser
 import datetime as dt
-import sys
+import json
 
 
 cg = CoinGeckoAPI()
 
-availableCurrencies = {
-                "usd":"USD",
-                "aed":"AED",
-                "ars":"ARS",
-                "aud":"AUD",
-                "bdt":"BDT",
-                "bhd":"BHD",
-                "bmd":"BMD",
-                "brl":"BRL",
-                "cad":"CAD",
-                "chf":"CHF",
-                "clp":"CLP",
-                "cny":"CNY",
-                "czk":"CZK",
-                "dkk":"DKK",
-                "eur":"EUR",
-                "gbp":"GBP",
-                "hkd":"HKD",
-                "huf":"HUF",
-                "idr":"IDR",
-                "ils":"ILS",
-                "inr":"INR",
-                "jpy":"JPY",
-                "krw":"KRW",
-                "kwd":"KWD",
-                "lkr":"LKR",
-                "mmk":"MMK",
-                "mxn":"MXN",
-                "myr":"MYR",
-                "ngn":"NGN",
-                "nok":"NOK",
-                "nzd":"NZD",
-                "php":"PHP",
-                "pkr":"PKR",
-                "pln":"PLN",
-                "rub":"RUB",
-                "sar":"SAR",
-                "sek":"SEK",
-                "sgd":"SGD",
-                "thb":"THB",
-                "try":"TRY",
-                "twd":"TWD",
-                "uah":"UAH",
-                "vef":"VEF",
-                "vnd":"VND",
-                "zar":"ZAR",
-                "xdr":"XDR",
-                "xag":"XAG",
-                "xau":"XAU",
-                "bits":"BITS",
-                "sats":"SATS"
-                }
+with open('availableCurrencies.json') as availableCurrencies:
+  json.load(availableCurrencies)
 
 possibleYes = ['Y','y','yes','Yes','YES']
 possibleNo = ['N','n','No','NO','no']
