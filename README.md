@@ -1,6 +1,6 @@
 # Coingecko 
 
-### For given a **coin** and **currency** , using multiple functions can output relevant informations. 
+### For given data returns relevant information
 
 # Requirements : 
 
@@ -27,18 +27,18 @@ import datetime as dt
 ### -  ***date*** is a string (Date format : DD-MM-YYYY) , (example : "03-05-2021").
 
 ##   Usable functions : 
-###  **1) getInfos(coin,currency)**        
-###  **2) getPrice(coin,currency)**        
-###  **3) priceOutput(coin,currency)**     
-###  **4) historical(coin,currency,date)** 
-###  **5) evolution(coin,currency)**       
-###  **6) cryptoToCurrency(coin,currency)**  
-###  **7) currencyToCurrency(coin,currency)**
-###  **8) cryptoToCurrencyOutput(coin,currency)**
-###  **9) currencyToCryptoOutput(coin,currency)**
-###  **10) getSymbol(coin)** 
-###  **11) cryptoConverter()**
-###  **12) getProjectDescription(coin)**
+###  **1) getInfos(coin,currency) | returns raw partial information about a given crypto, output type dict** 
+###  **2) getPrice(coin,currency) | returns coin price given coin and currency, output type float**        
+###  **3) priceOutput(coin,currency) | returns a more clean output still about the price of a given coin, output type string**     
+###  **4) historical(coin,currency,date) | returns the price of a given coin with given currency where date has to be inputted, output type float**
+###  **5) evolution(coin,currency) | returns the rate of change of given crypto between two dates, also asking for dict where output is summed up in a dict, output type string** 
+###  **6) cryptoToCurrency(coin,currency) | returns amount of currency related to given crypto, output type float**  
+###  **7) currencyToCurrency(coin,currency) | returns amount of crypto related to given currency, output type float**
+###  **8) cryptoToCurrencyOutput(coin,currency) | returns amount of currency related to given crypto, output type string**
+###  **9) currencyToCryptoOutput(coin,currency) | returns amount of crypto related to given currency, output type string**
+###  **10) getSymbol(coin) | returns the symbol of a given crypto** 
+###  **11) cryptoConverter() | returns the equivalent of two asked crypto's**
+###  **12) getProjectDescription(coin) | returns a partial project description of a given coin**
 
 
 ### -**historical** and **evolution** functions **aren't working** for a **1 month old** date example (assuming we're the **19-10-2021**) you can't get the price of the (**20-09-2021**)
