@@ -1,6 +1,6 @@
-# Coingecko 
+# Crypto scraping tool
 
-### For given data returns relevant information
+### For given data returns relevant information, (Using coingecko's wrapper)
 
 # Requirements : 
 
