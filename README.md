@@ -25,6 +25,7 @@ import datetime as dt
 ### -  ***coin*** is a string (example : 'Bitcoin').
 ### -  ***currency*** is a string (example : 'USD').
 ### -  ***date*** is a string (Date format : DD-MM-YYYY) , (example : "03-05-2021").
+### -  *When running the code program will ask you what function you'll use , please refer to the numbers in front of the functions name below, if you have any issues using program consider contacting me on my discord in the contact section*
 
 ##   Usable functions : 
 ###  **1) getInfos(coin,currency) | returns raw partial information about a given crypto, output type dict** 
