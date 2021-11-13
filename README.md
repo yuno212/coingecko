@@ -18,7 +18,7 @@ import datetime as dt
 ### -  Clean UI.
 ### -  Could be improved by deploying a web app.
 ### -  All variables type explained.
-### -  Video tutorial to see how to use the program (Link : ...).
+### -  Video tutorial to see how to use the program (Link : Comming soon...).
 
 # Infos / Input types / Functions : 
 
