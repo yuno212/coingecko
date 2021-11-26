@@ -3,7 +3,7 @@
 ### For given data returns relevant information, (Using coingecko's wrapper)
 
 # Requirements : 
-Python version 3.x
+### Python version 3.x
 ```python
 pip install pycoingecko
 from pycoingecko import CoinGeckoAPI
