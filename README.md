@@ -1,6 +1,7 @@
 # Crypto scraping tool
 
-### For given data returns relevant information, (Using coingecko's wrapper) https://github.com/man-c/pycoingecko
+### For given data returns relevant information, (Using coingecko's wrapper) 
+### https://github.com/man-c/pycoingecko
 
 # Requirements : 
 ### Python version 3.x
