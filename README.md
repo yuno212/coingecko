@@ -43,7 +43,6 @@ import datetime as dt
 ###  **12) getProjectDescription(coin) | returns a partial project description of a given coin**
 
 
-### -**historical** and **evolution** functions **aren't working** for a **1 month old** date example (assuming we're the **19-10-2021**) you can't get the price of the (**20-09-2021**)
 
 ### - To get a specific coin id please consider searching your coin on https://www.coingecko.com/en , and copy the circled content who's basically getting the id of the coin
 ![InkedpageWhenRedirected_LI](https://user-images.githubusercontent.com/91159949/138499503-d716f371-fc0a-40df-95f2-5fdd7971ac73.jpg)
